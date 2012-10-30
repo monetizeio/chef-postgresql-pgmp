@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-package 'postgresql-pgmp'
+package "postgresql-#{node['postgresql']['version']}-pgmp"
 
 #
 # End of File
